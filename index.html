@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Captial map</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="container">
+      <div id="logindiv">
+        <label id="uname" for="uname">Username</label><br>
+        <input id="Username" type="text" placeholder="Enter Username(u)" name="uname" required><br>
+        <label id="psw" for="psw">Password</label><br>
+        <input id="Password" type="password" placeholder="Enter Password(p)" name="psw" required><br>
+        <button id="login" type="submit">Login</button>
+      </div>
+      <div id="logoutdiv">
+        <label id="sucesslabel" for="sucess">Wellcome Test User!</label>
+        <button id="logout" type="submit">Logout</button>
+      </div>
+      <div id="todoContainer">
+        <form id="todo-form">
+            <input type="text" placeholder="Write a To Do and Press Enter" required>
+        </form>
+        <ul id="todo-list">
+        </ul>
+        <div id="quote">
+        </div>    
+    </div>
+    </div>
+
+
+    <div>
+        <button id="Changebg">Change bg</button>
+    </div>
+
+  </body>
+  <script src="app.js"></script>
+  <script src="background.js"></script>
+  <script src="todo.js"></script>
+  <script src="weather.js"></script>
+</html>
