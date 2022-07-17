@@ -8,7 +8,7 @@ const logout = document.getElementById('logout')
 function loginfunction(){
   const id = document.getElementById('Username').value
   const pw = document.getElementById('Password').value
-  if (id === '' && pw === '') {
+  if (id === 'u' && pw === 'p') {
     document.getElementById('logindiv').hidden = true
     document.getElementById('logoutdiv').hidden = false
     document.getElementById('todoContainer').hidden = false
